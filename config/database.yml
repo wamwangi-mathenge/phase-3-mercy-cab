@@ -1,4 +1,8 @@
 # environment, adapter, database
 development:
   adapter: "sqlite"
-  database: "db/tasks"
+  database: "db/tasks.sqlite"
+
+test:
+  adapter: "sqlite3"
+  database: ""
