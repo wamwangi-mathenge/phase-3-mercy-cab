@@ -1,0 +1,4 @@
+# environment, adapter, database
+development:
+  adapter: "sqlite"
+  database: "db/tasks"
